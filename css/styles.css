@@ -1,0 +1,59 @@
+/*********************** TAG SELECTORS **********************/
+div{background-color: lightcyan;}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    width: 10%;
+    margin: 0 auto; 
+    font-family: 'Sacramento', cursive; 
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*********************** CLASS SELECTORS **********************/
+/*CLASS FOR MULTIPLE INSTANTCES*/
+.top-container {
+    padding-top: 100px;
+    background-color: lightcyan;
+}
+.middle-container{
+    
+}
+.bottom-container{
+    
+}
+.pro{
+    text-decoration: underline;
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    top: 50px;
+    right: 300px;
+    position: absolute;
+}
+.skill-row{
+    text-align: center;
+}
+.skill-row ul{
+    display: inline-block;
+}
+.skill-row ul li{
+    text-align: left;
+}
+
+/*********************** IDS SELECTORS **********************/
+/* ONLY HAVE SINGLE INSTANT OF IDS AND MORE THAN ONE ID*/
+
+
