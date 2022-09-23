@@ -5,7 +5,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 h1{
@@ -52,13 +52,22 @@ h3{
 }
 .skill-row{
     text-align: center;
-}
-.skill-row ul{
-    display: inline-block;
-}
-.skill-row ul li{
+    width: 50%;
+    margin: 100px auto;
     text-align: left;
+    line-height: 2;
 }
+.think-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.hobbies-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
 
 /*********************** IDS SELECTORS **********************/
 /* ONLY HAVE SINGLE INSTANT OF IDS AND MORE THAN ONE ID*/
